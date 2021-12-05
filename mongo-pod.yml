@@ -14,8 +14,8 @@ spec:
       - -c
       env:
       - name: MONGO_INITDB_ROOT_USERNAME
-        value: "vaxidrez"
+        value: "ecaverolevano"
       - name: MONGO_INITDB_ROOT_PASSWORD
-        value: "$VaxiDrez2025"
+        value: "erickcl19"
       ports:
         - containerPort: 27017
