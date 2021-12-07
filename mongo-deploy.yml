@@ -21,9 +21,6 @@ spec:
           containers:
             - name: mongo
               image: mongo:latest
-              command:
-              - /bin/bash
-              - -c
               env:
               - name: MONGO_INITDB_ROOT_USERNAME
                 value: "ecaverolevano"
