@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
     - name: gateway-app
-      image: ecaverolevano/serviciosapigateway:v2.#{Build.BuildId}#
+      image: ecaverolevano/serviciosapigateway:latest
       ports:
         - containerPort: 80
