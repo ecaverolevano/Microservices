@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
     - name: microservice-libreria-app
-      image: ecaverolevano/serviciosapilibreria:latest
+      image: ecaverolevano/serviciosapilibreria:v2.#{Build.BuildId}#
       ports:
         - containerPort: 80
       env:
