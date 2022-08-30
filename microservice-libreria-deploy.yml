@@ -6,7 +6,7 @@ metadata:
     name: microservice-libreria-deploy
     app: microservice
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: microservice-libreria
