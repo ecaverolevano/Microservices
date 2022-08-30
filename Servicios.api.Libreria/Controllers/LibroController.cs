@@ -13,7 +13,7 @@ namespace Servicios.api.Libreria.Controllers
     [ApiController]
     public class LibroController : ControllerBase
     {
-
+        //Comentario para probar despliegue automatizo de kubernetes
         private readonly IMongoRepository<LibroEntity> _libroRepository;
 
         public LibroController(IMongoRepository<LibroEntity> libroRepository) {
